@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>PORTFOLIO</title>
-     <link rel="stylesheet" href="portfolio.css">
+     <link rel="stylesheet" href="style.css">
   </head>
+
+
   <body >
     <h1>RESUME</h1>
 
@@ -48,14 +50,11 @@
            <li><span>10TH - 95%</span></li>
            <li><span>12TH - 94.7</span></li>
            <li><span>B.TECH - 8.57</span></li>
-
          </ul>
        </div>
 
 
        </div>
-
-
     </div>
   </div>
 </div>
@@ -125,7 +124,7 @@
       <h2>COOL FEATURES</h2>
       <li>CONVERT A COLOR IMAGE TO GREY SCALE</li>
       <li>CAN REVERT BACK TO ORIGINAL FROM GREY SCALE</li>
-      <a href="PHOTO ALBUM" style = "text-decoration:none";>PHOTO ALBUM</a>
+      <a href="PHOTO-ALBUM/pa.html" style = "text-decoration:none";>PHOTO ALBUM</a>
       </div>
 
   <div class="grid-item">
@@ -135,7 +134,7 @@
       <li>UNDO OPTION</li>
       <li>MULTIPLAYER MODE</li>
       <li>COMPUTER MODE</li>
-      <a href="PHOTO ALBUM" style = "text-decoration:none";>TICTAC TOE</a>
+      <a href="TIC-TAC-TOE/TIC-TAC-TOE.html" style = "text-decoration:none";>TICTAC TOE</a>
       </div>
 
   <div class="grid-item">
@@ -144,7 +143,7 @@
       <h2>COOL FEATURES</h2>
       <li>DETECT POSITIONAL ACCURACY OF GUESSED AND BACKEND WORD</li>
       <li>DIFFERENT COLORS BASED ON WORD POSITION</li>
-      <a href="PHOTO ALBUM" style = "text-decoration:none";>WORDLE</a>
+      <a href="wordle/wordle.html" style = "text-decoration:none";>WORDLE</a>
       </div>
 
 </div>
@@ -169,8 +168,8 @@
         </ul>
 
 <script >
-  var tablinks= document.getElementByClassName("tab-links");
-  var tabcontents= document.getElementByClassName("tab-contents");
+  var tablinks= document.getElementsByClassName("tab-links");
+  var tabcontents= document.getElementsByClassName("tab-contents");
 
   function opentab(tabname){
     for (tablink of tablinks){
@@ -179,6 +178,8 @@
     for (tabcontent of tabcontents){
       tabcontent.classList.remove("active-tab");
     }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
   }
 </script>
 
