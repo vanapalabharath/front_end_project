@@ -1,0 +1,155 @@
+
+
+body{
+  background-color: white;
+
+}
+
+#about{
+  padding: 80px 0;
+  color: red;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.about-col-1{
+  flex-basis: 35%;
+
+}
+.about-col-1 img{
+  width: 350px;
+  height: 575px;
+  border-radius: 15px;
+
+}
+.about-col-2{
+  flex-basis: 60%;
+
+}
+
+.sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  color:black;
+}
+
+.tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.tab-links{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position:relative;
+}
+
+.tab-links::after{
+  content:'';
+  width:0;
+  height: 3px;
+  background: black
+  position:absolute;
+  left:0;
+  bottom: -8px;
+  transistion: 0.5s;
+
+}
+
+.tab-links.active-links::after{
+  width:50%;
+}
+
+.tab-contents ul li{
+  list-style:none;
+  margin: 10px 0;
+
+}
+
+.tab-contents ul li{
+  list-style:none;
+  margin: 10px 0;
+
+}
+
+.tab-contents ul li span{
+color:red;
+font-size: 14px;
+}
+
+.tab-contents{
+  display: none;
+}
+
+.tab-contents.active-tab{
+  display:block;
+}
+
+
+
+
+
+
+
+
+
+.skills{
+  margin-left: 675px;
+  font-size: 25px;
+}
+
+.PROJECTS{
+  margin-left: 650px;
+  font-size: 25px;
+
+}
+.FSD-PROJECTS{
+  margin-top:10px;
+  margin-left: 655px;
+  font-size: 20px;
+
+}
+
+.grid-container0{
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 250px 250px;
+  background-color: #EDEADE;
+  padding: 3px;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.grid-item0{
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  font-size: 20px;
+  background-color: #EDEADE;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 300px;
+  background-color: #EDEADE;
+  padding: 3px;
+  column-gap: 3px;
+  row-gap: 3px;
+}
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  font-size: 15px;
+  background-color: #EDEADE;
+
+  text-align: center;
+}
