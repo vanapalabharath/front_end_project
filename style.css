@@ -18,8 +18,9 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-left: 10%;
+  padding-top: 20px;
+
+ 
   padding-right: 10%;
   position: fixed; 
   top: 0; 
@@ -30,26 +31,23 @@ nav{
 
 .logo{
    color: white;
-   font-size: 28px;
+   font-size: 30px;
+   padding-left:100px;
 }
 
 nav ul li{
   list-style-type: none;
   display : inline-block;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 nav ul li a{
   color: white;
   text-decoration: none;
   font-weight:bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-nav ul li a:hover{
-  color: #ea1538;
-  transistion: .3s
-}
 
 button{
   border:none;
@@ -77,14 +75,6 @@ button:hover{
   flex-wrap: wrap;
 
 }
-
-
-
-
-
-
-
-
 
 .skills{
   margin-left: 675px;
@@ -141,22 +131,24 @@ padding-top: 10px;
   padding: 1px;
   font-size: 15px;
   background-color: #EDEADE;
-
   text-align: center;
 }
 
 .sh{
   margin-left: 625px;
 }
+.grid-item .features0{
+  font-size: 20px;
+}
 
 .grid-container1 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: 100px 100px 100px 100px 100px ;
   grid-template-rows: auto ;
   background-color: #2196F3;
 padding:8px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 480px;
+  margin-right: 505px;
 }
 .grid-item1 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -164,3 +156,21 @@ padding:8px;
   font-size: 35px;
   text-align: center;
 }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 400px 400px auto;
+  grid-template-rows: 400px;
+  background-color: #2196F3;
+  margin-top: 150px;
+
+
+}
+.grid-item2 {
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  transition: width 0.1s;
+}
+
