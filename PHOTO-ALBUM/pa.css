@@ -1,0 +1,23 @@
+
+
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.album img {
+  width: 360px;
+  height: 325px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.reddish {
+  filter: hue-rotate(90deg);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
