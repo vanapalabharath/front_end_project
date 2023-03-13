@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PORTFOLIO</title>
+     <link rel="stylesheet" href="portfolio.css">
+  </head>
+
+
+  <body >
+    <h1>RESUME</h1>
+
+<div class="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="about-col-1">
+          <img src="IMAGE.jpg" alt="">
+      </div>
+
+      <div class="about-col-2">
+       <h1 class='sub-title'>About Me</h1>
+       <p>THIS IS BHARATH</p>
+
+       <div class="tab-titles">
+         <p class="tab-links active-link" onclick="opentab('EDUCATION')">EDUCATION</p>
+         <p class="tab-links active-link" onclick="opentab('INTERESTS')">INTERESTS</p>
+         <p class="tab-links active-link" onclick="opentab('GRADES')">GRADES</p>
+       </div>
+
+       <div class="tab-contents active-tab" id="EDUCATION">
+         <ul>
+           <li><span>2018</span><br>SSC (T.S BOARD) at Sri Chaitanya </li>
+           <li><span>2018-2020</span><br>11th,12th at sri chaitanya</li>
+           <li><span>2020-2024</span><br>B.Tech in CSE at AMRITA VISHWA VIDHYAPEETHAM </li>
+         </ul>
+       </div>
+
+       <div class="tab-contents" id="INTERESTS">
+         <ul>
+           <li><span>CHESS</span></li>
+           <li><span>SUDOKU</span></li>
+           <li><span>CRICKET</span></li>
+           <li><span>TRAVELLING</span></li>
+         </ul>
+       </div>
+
+       <div class="tab-contents" id="GRADES">
+         <ul>
+           <li><span>10TH - 95%</span></li>
+           <li><span>12TH - 94.7</span></li>
+           <li><span>B.TECH - 8.57</span></li>
+         </ul>
+       </div>
+
+
+       </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="skills">
+        <h2><strong>SKILLS</strong></h2>
+      </div>
+
+      <div class="grid-container0">
+
+    <div class="grid-item0">
+
+      <h2>Web Technology</h2>
+        <p>Have Knowledge in creating and strcuturing basic web pages using HTML and
+          add style to them using CSS and Bootstrap. Also, developed dynamic web pages
+           with interactive features using JavaScript</p>
+        </div>
+
+    <div class="grid-item0">
+
+      <h2>Programming</h2>
+        <p>Have Knowledge in kost common programming languages like Python,C and solved different type of problems using above languages in multiple platforms</p>
+        </div>
+
+      <div class="grid-item0">
+
+        <h2>Data Structures and Algorithms</h2>
+          <p>Have knowledge in most common data strcutures such as stack,array,queue and linkedlists. Also, implemented popular algorithms like Merge sort, DFS, binary search, Qucik sort etc.</p>
+          </div>
+
+      <div class="grid-item0">
+
+        <h2>DataBase Management</h2>
+        <p>  Have knowledge in concepts and priniciples that underpin how databases work. Also executed an simple database development projects</p>
+          </div>
+
+      <div class="grid-item0">
+
+        <h2>Operating Systems</h2>
+          <p>Have Knowledge in operating system specialization which includes memory Management, deadlock detection and prevention, scheduling algorthims and concurrency.</p>
+       </div>
+
+        <div class="grid-item0">
+
+          <h2>Networking</h2>
+            <p>Have Knowledge in fundamentals of modern networking technologies and protocols.and how networking works in detail and depth.</p>
+            </div>
+  </div>
+
+
+
+<div class="PROJECTS">
+  <h2>PROJECTS </h2>
+</div>
+
+    <div class="FSD-PROJECTS">
+        <h3>FSD PROJECTS</h3>
+    </div>
+
+
+    <div class="grid-container">
+
+  <div class="grid-item">
+    <h1>PHOTO ALBUM</h1>
+      <p>a responsive photo album is done using HTML,CSS and JAVASCRIPT</p>
+      <h2>COOL FEATURES</h2>
+      <li>CONVERT A COLOR IMAGE TO GREY SCALE</li>
+      <li>CAN REVERT BACK TO ORIGINAL FROM GREY SCALE</li>
+      <a href="PHOTO-ALBUM/photoalbum.html" style = "text-decoration:none";>PHOTO ALBUM</a>
+      </div>
+
+  <div class="grid-item">
+    <h1>TIC-TAC-TOE</h1>
+      <p>A FUN GAME DESIGNED USING HTML,CSS and JAVASCRIPT</p>
+      <h2>COOL FEATURES</h2>
+      <li>UNDO OPTION</li>
+      <li>MULTIPLAYER MODE</li>
+      <li>COMPUTER MODE</li>
+      <a href="TIC-TAC-TOE/index.html" style = "text-decoration:none";>TICTAC TOE</a>
+      </div>
+
+  <div class="grid-item">
+    <h1>WORDLE</h1>
+      <p>a responsive photo album is done using HTML,CSS and JAVASCRIPT</p>
+      <h2>COOL FEATURES</h2>
+      <li>DETECT POSITIONAL ACCURACY OF GUESSED AND BACKEND WORD</li>
+      <li>DIFFERENT COLORS BASED ON WORD POSITION</li>
+      <a href="PHOTO ALBUM" style = "text-decoration:none";>WORDLE</a>
+      </div>
+
+</div>
+
+
+
+        <h2>COURSES</h2>
+         <p><strong><li>PYTHON PROGRAMMING</li></strong></p>
+        <ul>
+         <a href="https://www.kaggle.com/learn/certification/bharathchandravarma/python " style = "text-decoration:none"; target="_blank">KAGGLE</a>
+
+        </ul>
+
+          <p><strong><li>INTRO TO SQL</li></strong></p>
+        <ul>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/MCVRDYBHW4YY " style = "text-decoration:none"; target="_blank">COURSERA</a>
+        </ul>
+
+           <p><strong><li>INTRO TO DEEP LEARNING</li></strong></p>
+        <ul>
+          <a href="https://www.kaggle.com/learn/certification/bharathchandravarma/intro-to-deep-learning" style = "text-decoration:none"; target="_blank">KAGGLE</a>
+        </ul>
+
+<script >
+  var tablinks= document.getElementsByClassName("tab-links");
+  var tabcontents= document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for (tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+
+
+  </body>
+</html>
