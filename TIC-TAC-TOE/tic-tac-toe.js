@@ -26,7 +26,7 @@ function handleCellPlayed(clickedCell, clickedCellIndex) {
     gameState[clickedCellIndex] = currentPlayer;
     clickedCell.innerHTML = currentPlayer;
 
-    // Add the current state to the game history
+    
     gameHistory.push([...gameState]);
 }
 
@@ -82,7 +82,7 @@ function handleUndoMove() {
         return;
     }
 
-    // Remove the current state from the game history
+    
     gameHistory.pop();
 
     // Revert to the previous state
@@ -90,7 +90,7 @@ function handleUndoMove() {
     currentPlayer = currentPlayer === "X" ? "O" : "X";
     statusDisplay.innerHTML = currentPlayerTurn();
 
-    // Update the game board
+    
     document.querySelectorAll('.cell').forEach((cell, index) => {
         cell.innerHTML = gameState[index];
     });
@@ -103,7 +103,7 @@ function handleRestartGame() {
     statusDisplay.innerHTML = currentPlayerTurn();
     document.querySelectorAll('.cell').forEach(cell => cell.innerHTML = "");
 
-    // Clear the game history
+    
     gameHistory = [];
 }
 
