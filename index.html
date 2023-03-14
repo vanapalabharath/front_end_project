@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>PORTFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css">
      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   </head>
@@ -29,7 +31,7 @@
 
 
     <div class="grid-item2">
-  <img src="IMAGE.jpg" width='375px' height='400px' style="border-radius: 20px;" alt="">
+  <img src="IMAGE.jpg" width='375px' height='400px' style="border-radius: 25px;" alt="">
         </div>
 
         <div class="grid-item2">
@@ -56,9 +58,9 @@
       <div class="grid-container0">
 
     <div class="grid-item0">
-        <img class="img0" src="portfolio/web development.png" alt="">   
+        <img src="portfolio/web development.png" width="65px" height="65px" alt="">   
       <h2>Web Technology</h2>
-        <p >Have Knowledge in creating and strcuturing basic web pages using HTML and
+        <p > &nbsp; Have Knowledge in creating and strcuturing basic web &nbsp; pages using HTML and
           add style to them using CSS and Bootstrap. Also, developed dynamic web pages
            with interactive features using JavaScript</p>
         </div>
@@ -72,7 +74,8 @@
       <div class="grid-item0">
         <img src="portfolio/programming.png" width="70px" height="70px" alt="">
         <h2 >Data Structures and Algorithms</h2>
-          <p >Have knowledge in most common data strcutures such as stack,array,queue and linkedlists. Also, implemented popular algorithms like Merge sort, DFS, binary search, Qucik sort etc.</p>
+          <p > &nbsp; Have knowledge in most common data strcutures such &nbsp;  &nbsp;  &nbsp;     as stack, array, queue and linkedlists. Also,
+           implemented &nbsp; popular algorithms like Merge sort, DFS, binary search, &nbsp;  &nbsp;     Quick sort etc.</p>
           </div>
 
       <div class="grid-item0">
@@ -95,18 +98,22 @@
   </div>
 </section>
 
-
-
+<hr>
+<br>
+<br>
+<br>
 <section  id="projects0">
   <div class="PROJECTS">
     <h2>PROJECTS </h2>
   </div>
+
+  <br>
   
       <div class="FSD-PROJECTS">
           <h3 >FSD PROJECTS</h3>
       </div>
   
-  
+  <br>
       <div class="grid-container">
   
     <div class="grid-item">
@@ -118,9 +125,8 @@
             <li>CONVERT A COLOR IMAGE TO GREY SCALE</li>
             <li >CAN REVERT BACK TO ORIGINAL FROM GREY SCALE</li>
           </ul> 
-        <div class="links">
-          <a href="PHOTO-ALBUM/pa.html" target='_blank' style = "text-decoration:none; color:blue;";>LINK</a>
-        </div>
+          <a href="PHOTO-ALBUM/pa.html" target='_blank' class="btn btn-info" role="button">Check It Out</a>
+          
         </div>
   
     <div class="grid-item">
@@ -131,10 +137,8 @@
         <li>UNDO OPTION</li>
         <li>MULTIPLAYER MODE</li>
         <li>COMPUTER MODE</li>
-      </ul>
-      <div class="links">
-        <a href="TIC-TAC-TOE/TIC-TAC-TOE.html" target='_blank' style = "text-decoration:none";>LINK</a>
-      </div>
+   </ul>
+   <a href="Tic-Tac-Toe/tic-tac-toe.html" target='_blank' class="btn btn-info" role="button">Check It Out</a> 
         </div>
   
     <div class="grid-item">
@@ -145,12 +149,8 @@
           <li>DETECT POSITIONAL ACCURACY OF GUESSED AND BACKEND WORD</li>
         <li>DIFFERENT COLORS BASED ON WORD POSITION</li>
         </ul>
-        <div class="links">
-          <a href="wordle/wordle.html" target='_blank' style = "text-decoration:none";>LINK</a>
+      <a  href="wordle/wordle.html" target='_blank' class="btn btn-info" role="button">Check It Out</a> 
         </div>
-        
-        </div>
-  
   </div>
   
   
@@ -168,45 +168,33 @@
 <section id="sm0">
   <div class="grid-container1">
     <div class="grid-item1">
-      <a href="https://www.linkedin.com/in/bharathchandravarma/" target="_blank"><img src="portfolio/linkedin.png" 
-        alt="HTML tutorial" style="width:50px;height:50px;" > </a>
+      <a  href="https://www.linkedin.com/in/bharathchandravarma/" target="_blank"><img src="portfolio/linkedin.png" 
+        alt="" style="width:50px;height:50px;" > </a>
     </div>
     <div class="grid-item1">
       <a href="https://github.com/vanapalabharath" target="_blank"><img src="portfolio/github.png" 
-        alt="HTML tutorial" style="width:50px;height:50px;" ></a>
+        alt="" style="width:50px;height:50px;" ></a>
     </div>
     <div class="grid-item1">
       <a href="https://www.hackerrank.com/U4AIE20172_DSA2" target="_blank"><img src="portfolio/hr.jpeg" 
-        alt="HTML tutorial" style="width:50px;height:50px;" ></a>
+         alt=""  style="width:50px;height:50px;"  ></a>
     </div>
     <div class="grid-item1">
       <a href="https://leetcode.com/varma212003/" target="_blank"><img src="portfolio/lc.png" 
-        alt="HTML tutorial" style="width:50px;height:50px;" ></a>
+        alt="" style="width:50px;height:50px;" ></a>
     </div>  
     <div class="grid-item1">
       <a href="https://www.linkedin.com/in/bharathchandravarma/" target="_blank"><img src="portfolio/gg.png" 
-        alt="HTML tutorial" style="width:50px;height:50px;"></a>
+        alt="" style="width:50px;height:50px;"></a>
     </div>
   </div>
-
+<!--  -->
 </section>
 
 
-<script >
-  var tablinks= document.getElementsByClassName("tab-links");
-  var tabcontents= document.getElementsByClassName("tab-contents");
-
-  function opentab(tabname){
-    for (tablink of tablinks){
-      tablink.classList.remove("active-link");
-    }
-    for (tabcontent of tabcontents){
-      tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab")
-  }
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+crossorigin="anonymous"></script>
 
 
   </body>
