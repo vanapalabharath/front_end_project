@@ -22,7 +22,7 @@ window.onload = function(){
 
 function intialize() {
 
-    // Create the game board
+    
     for (let r = 0; r < height; r++) {
         for (let c = 0; c < width; c++) {
             // <span id="0-0" class="tile">P</span>
@@ -34,7 +34,7 @@ function intialize() {
         }
     }
 
-    // Create the key board
+   
     let keyboard = [
         ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
         ["A", "S", "D", "F", "G", "H", "J", "K", "L", " "],
