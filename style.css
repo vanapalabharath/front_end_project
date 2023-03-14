@@ -91,7 +91,7 @@ padding-top: 10px;
 }
 .FSD-PROJECTS{
   margin-top:10px;
-  margin-left: 655px;
+  margin-left: 632px;
   font-size: 20px;
 
 
@@ -111,7 +111,7 @@ padding-top: 10px;
 background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 1px;
-  font-size: 20px;
+  font-size: 18px;
   color:black;
   text-align: center;
   font-family: roboto;
@@ -185,3 +185,41 @@ background-color: white;
   transition: width 0.1s;
 }
 
+
+
+.links img:hover{
+  width:45px;
+  height:45px;
+  align-content: center;
+  transition: 0.8s ease;
+}
+
+
+
+
+ 
+
+.grid-item0:hover{
+
+  font-size:19px;
+  transition: 0.5s ease;
+  
+}
+
+  .grid-item0 img:hover{
+width:75px;
+height:75px;
+transition: 0.5s ease;
+  }
+
+  .grif-item a img:{
+    width:50px;
+    height:50px;
+    text-align: center;
+  }
+.grid-item1 a img:hover{
+  width:70px;
+  height:70px;
+  transition: 0.5s ease;
+  
+}
