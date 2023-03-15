@@ -1,4 +1,7 @@
 
+body{
+  background-color: none;
+}
 
 
 .album {
@@ -10,8 +13,9 @@
 .album img {
   width: 360px;
   height: 325px;
-  margin: 1px;
+  margin: 3px;
   cursor: pointer;
+  margin-left:10px;
 }
 
 .reddish {
@@ -20,4 +24,45 @@
 
 .grayscale {
   filter: grayscale(100%);
+}
+
+
+.heading{
+  text-align: center;
+  font-family: roboto;
+  font-size: 35px;
+
+  
+}
+
+
+.about h2{
+  font-size: 32px;
+}
+
+.buttons{
+
+  padding-inline: 20px;
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 80px;
+  background-color: none;
+  padding: 5px;
+  font-size: 25px;
+}
+.hi{
+  font-size:30px;
+  font-weight: 300;
+  font-family: roboto;
+  text-align: center;
+}
+
+.hi:hover{
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
 }
